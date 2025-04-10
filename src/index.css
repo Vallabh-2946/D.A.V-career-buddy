@@ -5,20 +5,20 @@
 @layer base {
   :root {
     --background: 0 0% 5%; /* Very Dark Gray/Almost Black */
-    --foreground: 0 84% 45%; /* Deep, Muted Red */
+    --foreground: 0 0% 95%; /* Bright White Text */
     --card: 0 0% 8%; /* Dark Charcoal */
-    --card-foreground: 0 84% 40%; /* Deeper Muted Red */
+    --card-foreground: 0 0% 95%; /* Bright White */
     --popover: 0 0% 8%; /* Dark Charcoal */
-    --popover-foreground: 0 84% 40%; /* Deeper Muted Red */
+    --popover-foreground: 0 0% 95%; /* Bright White */
     
-    --primary: 0 84% 35%; /* Deep Blood Red */
-    --primary-foreground: 0 0% 10%; /* Nearly Black */
+    --primary: 0 84% 35%; /* Deep Blood Red for Buttons */
+    --primary-foreground: 0 0% 95%; /* White Text on Red Buttons */
     
     --secondary: 0 0% 12%; /* Very Dark Gray */
     --secondary-foreground: 0 84% 35%; /* Deep Red */
     
     --muted: 0 0% 10%; /* Almost Black */
-    --muted-foreground: 0 84% 30%; /* Softest Red */
+    --muted-foreground: 0 0% 70%; /* Light Gray */
     
     --accent: 0 0% 15%; /* Dark Charcoal */
     --accent-foreground: 0 84% 40%; /* Deep Red */
@@ -35,9 +35,9 @@
 
   .dark {
     --background: 0 0% 3%; /* Almost Pure Black */
-    --foreground: 0 84% 45%; /* Softer Red */
+    --foreground: 0 0% 95%; /* Softer Red */
     --card: 0 0% 6%; /* Very Dark Gray */
-    --card-foreground: 0 84% 40%; /* Deeper Red */
+    --card-foreground: 0 0% 95%; /* Deeper Red */
     
     --primary: 0 84% 35%; /* Deep Red */
     --primary-foreground: 0 0% 5%; /* Almost Black */
