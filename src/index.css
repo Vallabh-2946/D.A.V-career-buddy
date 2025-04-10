@@ -4,59 +4,59 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%; /* Black */
-    --foreground: 0 84% 60%; /* Bright Red */
-    --card: 0 0% 10%; /* Dark Black */
-    --card-foreground: 0 84% 60%; /* Bright Red */
-    --popover: 0 0% 10%; /* Dark Black */
-    --popover-foreground: 0 84% 60%; /* Bright Red */
+    --background: 0 0% 5%; /* Very Dark Gray/Almost Black */
+    --foreground: 0 84% 50%; /* Deeper, Less Bright Red */
+    --card: 0 0% 8%; /* Slightly Lighter Dark Background */
+    --card-foreground: 0 84% 45%; /* Softer Red */
+    --popover: 0 0% 8%; /* Same as Card Background */
+    --popover-foreground: 0 84% 45%; /* Softer Red */
     
-    --primary: 0 84% 60%; /* Bright Red */
-    --primary-foreground: 0 0% 0%; /* Black */
+    --primary: 0 84% 40%; /* Deeper Red */
+    --primary-foreground: 0 0% 10%; /* Very Dark Gray */
     
-    --secondary: 0 0% 20%; /* Dark Gray */
-    --secondary-foreground: 0 84% 60%; /* Bright Red */
+    --secondary: 0 0% 15%; /* Dark Gray */
+    --secondary-foreground: 0 84% 45%; /* Softer Red */
     
-    --muted: 0 0% 15%; /* Darker Black */
-    --muted-foreground: 0 84% 40%; /* Softer Red */
+    --muted: 0 0% 12%; /* Slightly Lighter Dark Background */
+    --muted-foreground: 0 84% 35%; /* Even Softer Red */
     
-    --accent: 0 0% 25%; /* Even Darker Gray */
-    --accent-foreground: 0 84% 60%; /* Bright Red */
+    --accent: 0 0% 20%; /* Slightly Lighter Gray */
+    --accent-foreground: 0 84% 45%; /* Softer Red */
     
-    --destructive: 0 84% 40%; /* Deeper Red */
+    --destructive: 0 84% 35%; /* Less Intense Red */
     --destructive-foreground: 0 0% 100%; /* White */
     
-    --border: 0 84% 20%; /* Dark Red */
-    --input: 0 84% 20%; /* Dark Red */
-    --ring: 0 84% 60%; /* Bright Red */
+    --border: 0 84% 15%; /* Dark Red Border */
+    --input: 0 84% 15%; /* Dark Red Input */
+    --ring: 0 84% 40%; /* Deeper Red Ring */
     
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 0 0% 0%; /* Black */
-    --foreground: 0 84% 70%; /* Bright Red */
-    --card: 0 0% 5%; /* Almost Black */
-    --card-foreground: 0 84% 70%; /* Bright Red */
+    --background: 0 0% 3%; /* Almost Pure Black */
+    --foreground: 0 84% 45%; /* Softer Red */
+    --card: 0 0% 6%; /* Very Dark Gray */
+    --card-foreground: 0 84% 40%; /* Deeper Red */
     
-    --primary: 0 84% 60%; /* Bright Red */
-    --primary-foreground: 0 0% 0%; /* Black */
+    --primary: 0 84% 35%; /* Deep Red */
+    --primary-foreground: 0 0% 5%; /* Almost Black */
     
-    --secondary: 0 0% 15%; /* Dark Gray */
-    --secondary-foreground: 0 84% 70%; /* Bright Red */
+    --secondary: 0 0% 10%; /* Very Dark Gray */
+    --secondary-foreground: 0 84% 40%; /* Deeper Red */
     
-    --muted: 0 0% 10%; /* Dark Black */
-    --muted-foreground: 0 84% 50%; /* Softer Red */
+    --muted: 0 0% 8%; /* Dark Gray */
+    --muted-foreground: 0 84% 35%; /* Soft Red */
     
-    --accent: 0 0% 20%; /* Dark Gray */
-    --accent-foreground: 0 84% 70%; /* Bright Red */
+    --accent: 0 0% 15%; /* Slightly Lighter Gray */
+    --accent-foreground: 0 84% 45%; /* Softer Red */
     
-    --destructive: 0 84% 50%; /* Deeper Red */
+    --destructive: 0 84% 30%; /* Less Intense Red */
     --destructive-foreground: 0 0% 100%; /* White */
     
-    --border: 0 84% 15%; /* Dark Red */
-    --input: 0 84% 15%; /* Dark Red */
-    --ring: 0 84% 70%; /* Bright Red */
+    --border: 0 84% 10%; /* Very Dark Red Border */
+    --input: 0 84% 10%; /* Very Dark Red Input */
+    --ring: 0 84% 35%; /* Deep Red Ring */
   }
 }
 

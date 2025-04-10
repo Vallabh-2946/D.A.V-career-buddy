@@ -53,11 +53,10 @@ export default {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))'
         },
-        // Custom override for skill colors to match red and black theme
         skill: {
-          low: '#8B0000',     // Dark Red
-          medium: '#B22222',  // Firebrick Red
-          high: '#DC143C'     // Crimson
+          low: '#5C0B0B',     // Dark Maroon
+          medium: '#8B0000',  // Dark Red
+          high: '#B22222'     // Firebrick Red
         }
       },
       backgroundImage: {
@@ -67,3 +66,4 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
