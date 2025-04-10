@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -54,9 +53,9 @@ export default {
           foreground: 'hsl(var(--card-foreground))'
         },
         skill: {
-          low: '#5C0B0B',     // Dark Maroon
-          medium: '#8B0000',  // Dark Red
-          high: '#B22222'     // Firebrick Red
+          low: '#3C0D0D',     // Very Dark Maroon
+          medium: '#5C0B0B',  // Dark Maroon
+          high: '#8B0000'     // Deep Dark Red
         }
       },
       backgroundImage: {
@@ -66,4 +65,3 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-

@@ -5,30 +5,30 @@
 @layer base {
   :root {
     --background: 0 0% 5%; /* Very Dark Gray/Almost Black */
-    --foreground: 0 84% 50%; /* Deeper, Less Bright Red */
-    --card: 0 0% 8%; /* Slightly Lighter Dark Background */
-    --card-foreground: 0 84% 45%; /* Softer Red */
-    --popover: 0 0% 8%; /* Same as Card Background */
-    --popover-foreground: 0 84% 45%; /* Softer Red */
+    --foreground: 0 84% 45%; /* Deep, Muted Red */
+    --card: 0 0% 8%; /* Dark Charcoal */
+    --card-foreground: 0 84% 40%; /* Deeper Muted Red */
+    --popover: 0 0% 8%; /* Dark Charcoal */
+    --popover-foreground: 0 84% 40%; /* Deeper Muted Red */
     
-    --primary: 0 84% 40%; /* Deeper Red */
-    --primary-foreground: 0 0% 10%; /* Very Dark Gray */
+    --primary: 0 84% 35%; /* Deep Blood Red */
+    --primary-foreground: 0 0% 10%; /* Nearly Black */
     
-    --secondary: 0 0% 15%; /* Dark Gray */
-    --secondary-foreground: 0 84% 45%; /* Softer Red */
+    --secondary: 0 0% 12%; /* Very Dark Gray */
+    --secondary-foreground: 0 84% 35%; /* Deep Red */
     
-    --muted: 0 0% 12%; /* Slightly Lighter Dark Background */
-    --muted-foreground: 0 84% 35%; /* Even Softer Red */
+    --muted: 0 0% 10%; /* Almost Black */
+    --muted-foreground: 0 84% 30%; /* Softest Red */
     
-    --accent: 0 0% 20%; /* Slightly Lighter Gray */
-    --accent-foreground: 0 84% 45%; /* Softer Red */
+    --accent: 0 0% 15%; /* Dark Charcoal */
+    --accent-foreground: 0 84% 40%; /* Deep Red */
     
-    --destructive: 0 84% 35%; /* Less Intense Red */
-    --destructive-foreground: 0 0% 100%; /* White */
+    --destructive: 0 84% 25%; /* Muted Burgundy */
+    --destructive-foreground: 0 0% 95%; /* Off White */
     
-    --border: 0 84% 15%; /* Dark Red Border */
-    --input: 0 84% 15%; /* Dark Red Input */
-    --ring: 0 84% 40%; /* Deeper Red Ring */
+    --border: 0 84% 10%; /* Very Dark Red Border */
+    --input: 0 84% 10%; /* Dark Red Input */
+    --ring: 0 84% 35%; /* Deep Red Ring */
     
     --radius: 0.5rem;
   }
