@@ -1,68 +1,62 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 240 10% 99%;
-    --foreground: 240 10% 10%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 10%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 10%;
-
-    --primary: 250 83% 60%; /* Main purple */
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 220 100% 66%; /* Blue accent */
-    --secondary-foreground: 0 0% 100%;
-
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 4% 46%;
-
-    --accent: 280 100% 70%; /* Light purple accent */
-    --accent-foreground: 0 0% 100%;
-
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 250 83% 60%;
-    --radius: 0.75rem;
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 84% 60%; /* Bright Red */
+    --card: 0 0% 10%; /* Dark Black */
+    --card-foreground: 0 84% 60%; /* Bright Red */
+    --popover: 0 0% 10%; /* Dark Black */
+    --popover-foreground: 0 84% 60%; /* Bright Red */
+    
+    --primary: 0 84% 60%; /* Bright Red */
+    --primary-foreground: 0 0% 0%; /* Black */
+    
+    --secondary: 0 0% 20%; /* Dark Gray */
+    --secondary-foreground: 0 84% 60%; /* Bright Red */
+    
+    --muted: 0 0% 15%; /* Darker Black */
+    --muted-foreground: 0 84% 40%; /* Softer Red */
+    
+    --accent: 0 0% 25%; /* Even Darker Gray */
+    --accent-foreground: 0 84% 60%; /* Bright Red */
+    
+    --destructive: 0 84% 40%; /* Deeper Red */
+    --destructive-foreground: 0 0% 100%; /* White */
+    
+    --border: 0 84% 20%; /* Dark Red */
+    --input: 0 84% 20%; /* Dark Red */
+    --ring: 0 84% 60%; /* Bright Red */
+    
+    --radius: 0.5rem;
   }
 
   .dark {
-    --background: 240 10% 4%;
-    --foreground: 0 0% 98%;
-
-    --card: 240 10% 8%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 240 10% 8%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 250 83% 60%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 220 100% 66%;
-    --secondary-foreground: 0 0% 100%;
-
-    --muted: 240 6% 16%;
-    --muted-foreground: 240 6% 70%;
-
-    --accent: 280 100% 70%;
-    --accent-foreground: 0 0% 100%;
-
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 6% 18%;
-    --input: 240 6% 18%;
-    --ring: 250 83% 60%;
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 84% 70%; /* Bright Red */
+    --card: 0 0% 5%; /* Almost Black */
+    --card-foreground: 0 84% 70%; /* Bright Red */
+    
+    --primary: 0 84% 60%; /* Bright Red */
+    --primary-foreground: 0 0% 0%; /* Black */
+    
+    --secondary: 0 0% 15%; /* Dark Gray */
+    --secondary-foreground: 0 84% 70%; /* Bright Red */
+    
+    --muted: 0 0% 10%; /* Dark Black */
+    --muted-foreground: 0 84% 50%; /* Softer Red */
+    
+    --accent: 0 0% 20%; /* Dark Gray */
+    --accent-foreground: 0 84% 70%; /* Bright Red */
+    
+    --destructive: 0 84% 50%; /* Deeper Red */
+    --destructive-foreground: 0 0% 100%; /* White */
+    
+    --border: 0 84% 15%; /* Dark Red */
+    --input: 0 84% 15%; /* Dark Red */
+    --ring: 0 84% 70%; /* Bright Red */
   }
 }
 
@@ -78,7 +72,7 @@
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary to-destructive bg-clip-text text-transparent;
   }
 
   .card-hover {
